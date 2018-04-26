@@ -6,7 +6,7 @@ function fToM(){
   
 //alert function
   if(!measure){
-	  alert("Enter a value");
+	  alert("Enter a value greater than 0");
   }
 else if(measure <= 0) {
 alert("Enter a value greater than 0")
@@ -29,7 +29,7 @@ function fToC(){
   
   //alert function
   if(!measure){
-	  alert("Enter a value ");
+	  alert("Enter a value greater than 0");
   }
 else if(measure <= 0) {
 alert("Enter a value greater than 0")
@@ -52,13 +52,13 @@ function fToY(){
   
   //alert function
   if(!measure){
-	  alert("Enter a value");
+	  alert("Enter a value greater than 0");
   }
 else if(measure <= 0) {
 alert("Enter a value greater than 0")
 }
 
-//Calculation
+
 else if(measure > 0) {
   
   var meters = measure * 0.9144;
